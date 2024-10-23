@@ -11,4 +11,7 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:3000/boards?id=6e466900-9164-11ef-b358-7b99bf9d1254
+GET http://localhost:3000/boards/f3ffa7f0-9164-11ef-8fd7-672b6795d69a
+
+###
+DELETE http://localhost:3000/boards/f3ffa7f0-9164-11ef-8fd7-672b6795d69a
