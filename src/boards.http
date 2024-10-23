@@ -9,3 +9,6 @@ Content-Type: application/json
   "title": "New Board",
   "description": "New Board Description"
 }
+
+###
+GET http://localhost:3000/boards?id=6e466900-9164-11ef-b358-7b99bf9d1254
