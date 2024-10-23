@@ -15,3 +15,11 @@ GET http://localhost:3000/boards/f3ffa7f0-9164-11ef-8fd7-672b6795d69a
 
 ###
 DELETE http://localhost:3000/boards/f3ffa7f0-9164-11ef-8fd7-672b6795d69a
+
+###
+PATCH http://localhost:3000/boards/7dfe58c0-9165-11ef-be46-9b7d20362223/status
+Content-Type: application/json
+
+{
+  "status": "PRIVATE"
+}
