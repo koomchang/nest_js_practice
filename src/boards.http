@@ -1,2 +1,11 @@
 ###
 GET http://localhost:3000/boards
+
+###
+POST http://localhost:3000/boards
+Content-Type: application/json
+
+{
+  "title": "New Board",
+  "description": "New Board Description"
+}
