@@ -1,7 +1,7 @@
 ###
 GET http://localhost:3000/boards
 
-###
+### 게시글 생성 성공
 POST http://localhost:3000/boards
 Content-Type: application/json
 
@@ -9,6 +9,18 @@ Content-Type: application/json
   "title": "New Board",
   "description": "New Board Description"
 }
+
+### 게시글 생성 실패 (validation 확인)
+POST http://localhost:3000/boards
+Content-Type: application/json
+
+{
+  "title": "",
+  "description": ""
+}
+
+
+
 
 ###
 GET http://localhost:3000/boards/f3ffa7f0-9164-11ef-8fd7-672b6795d69a
