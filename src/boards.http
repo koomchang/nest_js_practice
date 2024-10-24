@@ -19,9 +19,6 @@ Content-Type: application/json
   "description": ""
 }
 
-
-
-
 ###
 GET http://localhost:3000/boards/f3ffa7f0-9164-11ef-8fd7-672b6795d69a
 
@@ -29,7 +26,7 @@ GET http://localhost:3000/boards/f3ffa7f0-9164-11ef-8fd7-672b6795d69a
 DELETE http://localhost:3000/boards/f3ffa7f0-9164-11ef-8fd7-672b6795d69a
 
 ###
-PATCH http://localhost:3000/boards/7dfe58c0-9165-11ef-be46-9b7d20362223/status
+PATCH http://localhost:3000/boards/2db31d40-91c6-11ef-b204-91625dd9d5f9/status
 Content-Type: application/json
 
 {
